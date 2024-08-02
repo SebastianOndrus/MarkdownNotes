@@ -87,9 +87,9 @@ export const deleteNoteAtom = atom(null, async (get, set) => {
 
   if (!selectedNote || !notes) return
 
-  // const isDeleted = await window.context.deleteNote(selectedNote.title)
+  const isDeleted = await window.context.deleteNote(selectedNote.title)
 
-  // if (!isDeleted) return
+  if (!isDeleted) return
 
   // filter out the deleted note
   set(
@@ -97,6 +97,6 @@ export const deleteNoteAtom = atom(null, async (get, set) => {
     notes.filter((note) => note.title !== selectedNote.title)
   )
 
-  // de select any note
+  // deselect deleted note
   set(selectedNoteIndexAtom, null)
 })
