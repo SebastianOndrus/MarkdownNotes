@@ -3,7 +3,8 @@
 MarkdownNotes is a simple note-taking desktop application that uses Markdown syntax to format notes.
 It allows you to create, edit, save and delete notes through a simple and intuitive interface.
 
-
+## Video Preview
+⬇️Click on the image below to watch a short video preview of the app.⬇️
 [![Preview](https://github.com/SebastianOndrus/MarkdownNotes/blob/main/Markdown-notes/resources/thumbnail.png?raw=true)](https://youtu.be/ivHVXLuYWMM) 
 ## Features
 
